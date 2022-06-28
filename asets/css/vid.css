@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    
+    font-size: 15px;
+    line-height: 1.6;
+
+
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2, h3,h4,h5 , h6 {
+    margin: 0;
+}
+nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.nav_link:hover{
+    
+    color: yellow;
+}
+header {
+    width: 100%;
+    background-color: rgb(42, 43, 67);
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 50px;
+
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.intro {
+    margin-top:50px;
+    color: aliceblue;
+    
+    background-color: rgb(37, 40, 145);
+    width: 100%;
+    height: 100vh;
+}
+.text {
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+
+}
+.services {
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(165, 42, 132);
+}
+.contacts {
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.sub{
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(129, 37, 37);
+}
+.buy{
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.buy:hover{
+    color: yellow;
+}
